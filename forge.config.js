@@ -1,6 +1,6 @@
 module.exports = {
   packagerConfig: {
-    'ignore':['node_modules','.gitignore','forge.config.js','.local_zsh_history']
+    // 'ignore':['node_modules','.gitignore','forge.config.js','.local_zsh_history']
   },
   hooks: {
     postPackage: async (forgeConfig, options) => {
