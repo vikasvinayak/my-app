@@ -12,6 +12,17 @@ module.exports = {
 
   },
   rebuildConfig: {},
+  publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+        repository: {
+          owner: "vikasvinayak",
+          name: "my-app"
+        }
+      }
+    }
+  ],
   
   makers: [
     {
