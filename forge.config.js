@@ -4,10 +4,10 @@ module.exports = {
   },
   hooks: {
     postPackage: async (forgeConfig, options) => {
-      var fs = require('fs');
-      var filePath = 'out/my-app-darwin-arm64/my-app.app/Contents/Resources/app/package.json'; 
-      fs.unlinkSync(filePath);
-      console.log('Packages built at:');
+      // var fs = require('fs');
+      // var filePath = 'out/my-app-darwin-arm64/my-app.app/Contents/Resources/app/package.json'; 
+      // fs.unlinkSync(filePath);
+      // console.log('Packages built at:');
     },
 
   },
