@@ -1,12 +1,12 @@
 {
   "name": "my-app",
   "productName": "my-app",
-  "version": "2.3.0",
+  "version": "2.5.0",
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
-    "package": "electron-forge package -- --dir=./src",
+    "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
