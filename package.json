@@ -1,6 +1,6 @@
 {
-  "name": "electronRelease",
-  "productName": "electronRelease",
+  "name": "my-app",
+  "productName": "my-app",
   "version": "2.10.0",
   "description": "My Electron application description",
   "main": "src/index.js",
