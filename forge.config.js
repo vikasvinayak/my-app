@@ -18,7 +18,7 @@ module.exports = {
       config: {
         repository: {
           owner: "vikasvinayak",
-          name: "my-app"
+          name: "my-app-release"
         }
       }
     }
